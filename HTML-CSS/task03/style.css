@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	line-height: 2em;
+	text-indent: 2em;
+}
+.main{
+	/*宽度随浏览器自适应，否则中间部分无法自适应*/
+	width:90%;
+	height:440px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #ccc;
+	border: 1px solid #999;
+	position: relative;
+}
+.left{
+	width:200px;
+	height: 80px;
+	padding:20px;
+	background: #fff;
+	border: 1px solid #999;
+	position: absolute;
+	left:20px;
+	top:20px;
+}
+.left img{
+	width: 80px;
+	height: 80px;
+	margin:0 10px 0 0;
+	vertical-align:top;
+}
+.middle{
+	margin:0px 140px 0px 220px;
+	border: 1px solid #999;
+	background: #fff;
+	padding: 20px;
+}
+.right{
+	width:80px;
+	height:400px;
+	background: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.right img{
+	width: 80px;
+	height: 80px;
+	margin:0 0 20px 0;
+}
