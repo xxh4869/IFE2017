@@ -101,6 +101,7 @@ table,td{
 .story img{
 	display: inline-block;
 	width:25%;
+	height:auto;
 	margin: -30px auto;
 	float: right;
 	vertical-align: middle;
